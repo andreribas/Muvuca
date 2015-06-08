@@ -1,4 +1,20 @@
 {
+    "name": "andreribas/muvuca",
+    "type": "library",
+    "description": "A primitive PHP MVC Framework",
+    "keywords": ["mvc", "php"],
+    "homepage": "https://github.com/andreribas/Muvuca",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "André Ribas",
+            "email": "andreribas@gmail.com",
+            "homepage": "https://github.com/andreribas"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
     "autoload": {
         "psr-4": {
             "Muvuca\\": "lib/Muvuca"
